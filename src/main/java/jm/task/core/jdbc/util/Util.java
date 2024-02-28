@@ -5,10 +5,6 @@ import org.postgresql.Driver;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.Statement;
-
-import static org.hibernate.MultiTenancyStrategy.DATABASE;
-import static org.hibernate.cfg.AvailableSettings.DRIVER;
 
 public class Util {
 //     реализуйте настройку соеденения с БД
